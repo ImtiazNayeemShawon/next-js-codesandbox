@@ -5,7 +5,7 @@ import { useState } from "react";
 
 export default function EditorPage() {
   const [files, setFiles] = useState<{ [path: string]: { code: string } }>({
-    "/index.html": { code: "<h1>Hello Lovable Clone 🚀</h1>" },
+    "/index.html": { code: "<h1>Hello world from Sandbox 🚀</h1>" },
   });
 
   const handleUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
